@@ -1,0 +1,92 @@
+Exercise 1,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than 0,Invalid,-1
+Partition 1,Less than 0,Invalid,-10
+Partition 1,Less than 0,Invalid,-100
+Partition 2,0 to 100,Valid,0
+Partition 2,0 to 100,Valid,50
+Partition 2,0 to 100,Valid,100
+Partition 3,Greater than 100,Invalid,101
+Partition 3,Greater than 100,Invalid,150
+Partition 3,Greater than 100,Invalid,1000
+,,,
+Exercise 2 – ATM Withdrawal Validation,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than Rs 500,Invalid,Rs 499
+Partition 1,Less than Rs 500,Invalid,Rs 100
+Partition 1,Less than Rs 500,Invalid,Rs 1
+Partition 2,Rs 500 to Rs 20000,Valid,Rs 500
+Partition 2,Rs 500 to Rs 20000,Valid,Rs 10000
+Partition 2,Rs 500 to Rs 20000,Valid,Rs 20000
+Partition 3,More than Rs 20000,Invalid,Rs 20001
+Partition 3,More than Rs 20000,Invalid,Rs 25000
+Partition 3,More than Rs 20000,Invalid,Rs 50000
+,,,
+Exercise 3 – Username Validation,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than 5 characters,Invalid,1 character
+Partition 1,Less than 5 characters,Invalid,4 characters
+Partition 2,5 to 15 characters,Valid,5 characters
+Partition 2,5 to 15 characters,Valid,10 characters
+Partition 2,5 to 15 characters,Valid,15 characters
+Partition 3,More than 15 characters,Invalid,16 characters
+Partition 3,More than 15 characters,Invalid,20 characters
+Partition 3,More than 15 characters,Invalid,25 characters
+,,,
+Exercise 4 – Mobile Number Validation,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than 10 digits,Invalid,8 digits
+Partition 1,Less than 10 digits,Invalid,9 digits
+Partition 2,Exactly 10 digits,Valid,9876543210
+Partition 2,Exactly 10 digits,Valid,9123456789
+Partition 3,More than 10 digits,Invalid,11 digits
+Partition 3,More than 10 digits,Invalid,12 digits
+Partition 3,More than 10 digits,Invalid,15 digits
+,,,
+Exercise 5 – Shopping Cart Quantity,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than 1 item,Invalid,0
+Partition 1,Less than 1 item,Invalid,-1
+Partition 1,Less than 1 item,Invalid,-5
+Partition 2,1 to 10 items,Valid,1
+Partition 2,1 to 10 items,Valid,5
+Partition 2,1 to 10 items,Valid,10
+Partition 3,More than 10 items,Invalid,11
+Partition 3,More than 10 items,Invalid,15
+Partition 3,More than 10 items,Invalid,20
+,,,
+Exercise 6 – Bank Account Balance,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than Rs 1000,Invalid,Rs 500
+Partition 1,Less than Rs 1000,Invalid,Rs 999
+Partition 1,Less than Rs 1000,Invalid,Rs 1
+Partition 2,Rs 1000 to Rs 1000000,Valid,Rs 1000
+Partition 2,Rs 1000 to Rs 1000000,Valid,Rs 500000
+Partition 2,Rs 1000 to Rs 1000000,Valid,Rs 1000000
+Partition 3,More than Rs 1000000,Invalid,Rs 1000001
+Partition 3,More than Rs 1000000,Invalid,Rs 1500000
+Partition 3,More than Rs 1000000,Invalid,Rs 2000000
+,,,
+Exercise 7 – Employee Salary,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than Rs 15000,Invalid,Rs 10000
+Partition 1,Less than Rs 15000,Invalid,Rs 14999
+Partition 1,Less than Rs 15000,Invalid,Rs 5000
+Partition 2,Rs 15000 to Rs 200000,Valid,Rs 15000
+Partition 2,Rs 15000 to Rs 200000,Valid,Rs 50000
+Partition 2,Rs 15000 to Rs 200000,Valid,Rs 200000
+Partition 3,More than Rs 200000,Invalid,Rs 200001
+Partition 3,More than Rs 200000,Invalid,Rs 250000
+Partition 3,More than Rs 200000,Invalid,Rs 500000
+,,,
+Exercise 8 – Movie Ticket Booking,,,
+Partition,Input Range,Valid/Invalid,Test Value
+Partition 1,Less than 1 ticket,Invalid,0
+Partition 1,Less than 1 ticket,Invalid,-1
+Partition 1,Less than 1 ticket,Invalid,-5
+Partition 2,1 to 6 tickets,Valid,1
+Partition 2,1 to 6 tickets,Valid,3
+Partition 2,1 to 6 tickets,Valid,6
+Partition 3,More than 6 tickets,Invalid,7
+Partition 3,More than 6 tickets,Invalid,10
+Partition 3,More than 6 tickets,Invalid,15
